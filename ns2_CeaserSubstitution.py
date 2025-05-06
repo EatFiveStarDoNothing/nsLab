@@ -33,8 +33,8 @@ def decrypt_text(ciphertext, n):
             ans += chr((ord(ch) - n - 97) % 26 + 97)
 
     return ans
-plaintext = "PaintbaLL"
-n = 12
+plaintext = "thirdYear"
+n = 3
 print("Plain Text is  : " + plaintext)
 print("Shift key is   : " + str(n))
 
